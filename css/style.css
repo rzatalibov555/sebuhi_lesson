@@ -1,0 +1,91 @@
+body{
+
+    margin: 0;
+    padding: 0;
+   
+}
+
+.demo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1078336806/tr/vekt%C3%B6r/%C3%A7izgi-film-arka-plan-sahne-k%C4%B1rm%C4%B1z%C4%B1-perdeler-ile.jpg?s=170667a&w=0&k=20&c=9PbK1BG4mkPtoGzsNTsj-7OmZnBsmpbX7SGGFW9A8sY=");
+    background-size: cover;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside{
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+.center{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+  
+}
+
+
+.rightside{
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    float: left;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    transition: 0.5s;
+}
+
+.leftx{
+    left: 0px;
+    width: 0%;
+   
+}
+
+.rightx{
+    right: 0px;
+    width: 0%;
+
+}
+
+
+.leftman{
+    width: 200px;
+    height: 800px;
+    float: left;
+    background-image: url("https://cutewallpaper.org/24/teacher-gif/talking-teacher-gif-portfolio-design-teacher-cartoon-pencil-creative.gif");
+    position: fixed ;
+    left: 700px;
+    top: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.crazygirl{
+    width: 300px;
+    height: 800px;
+    float: left;
+    background-image: url("https://64.media.tumblr.com/91ac50b0515d6be6b7ed477c9630cb01/tumblr_mlyr37h5v71s6t8s3o1_500.gifv");
+    position: fixed ;
+    right: 700px;
+    top: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
